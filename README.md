@@ -5,3 +5,4 @@ Some of my Python Projects that I made.
 - Password Generator
 - Simple Calculator
 - Dice Roller
+- Story Generator
