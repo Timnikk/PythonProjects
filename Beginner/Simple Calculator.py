@@ -14,8 +14,8 @@ print(" ")
 ## Enter the 2 numbers
 print("Select the two numbers:")
 print(" ")
-z = int(input("Enter the first number: "))
-y = int(input("Enter the second number: "))
+z = float(input("Enter the first number: "))
+y = float(input("Enter the second number: "))
 if (x==1):
     print(str(z) + " + " + str(y) + " = " + str(z + y))
 elif (x==2):
@@ -23,6 +23,6 @@ elif (x==2):
 elif (x==3):
     print(str(z) + " * " + str(y) + " = " + str(z * y))
 elif (x==4):
-    print(str(z) + " / " + str(y) + " = " + str(z / y))
+    print(str(z) + " : " + str(y) + " = " + str(z / y))
 else:
     print("You enter an invalid argument. The only valid arguments are: 1, 2, 3 or 4")
